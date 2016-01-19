@@ -13,7 +13,7 @@ public class MainActivity extends Activity implements GeneradorDeMultiplosAsyncT
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new GeneradorDeMultiplosAsyncTask(this).execute(new Pair<Integer, Integer>(10, 100));
+//        new GeneradorDeMultiplosAsyncTask(this).execute(new Pair<Integer, Integer>(10, 100));
 
         UnIntentService.startActionFoo(this, "Hola", "Mundo");
     }
